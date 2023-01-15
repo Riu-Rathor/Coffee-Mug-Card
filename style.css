@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  height: 330px;
+  width: 500px;
+  background-color: rgb(208, 203, 203);
+  padding: 20px;
+  padding-left: 15px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.image-text {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mug-img {
+  height: 100%;
+  position: absolute;
+}
+
+.about {
+  position: absolute;
+  left: 47%;
+}
+
+.coffee-mug-heading {
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 11px;
+  color: rgb(101, 99, 99);
+  font-family: 'Lexend', sans-serif;
+}
+
+.white-coffee-mug-heading {
+  margin-top: 9px;
+  width: 70%;
+  line-height: 30px;
+  font-family: 'Galada', cursive;
+}
+
+.mug-text {
+  margin-top: 15px;
+  width: 90%;
+  line-height: 15px;
+  color: rgb(101, 99, 99);
+  font-size: 14px;
+}
+
+.price-container {
+  margin-top: 10px;
+}
+
+.new-price {
+  color: rgb(5, 135, 96);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Fraunces', serif;
+}
+
+.old-price {
+  text-decoration: line-through;
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(149, 148, 148);
+  font-family: 'Fraunces', serif;
+}
+
+.btn-cart {
+  width: 220px;
+  padding: 8px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: rgb(5, 135, 96);
+  color: white;
+  border: none;
+}
+
+.add-cart {
+  font-size: 15px;
+  padding: 10px;
+}
